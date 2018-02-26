@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url(https://avatanplus.com/files/resources/original/56dea94d4f23615355c5560c.jpg);
+	background-color: #00000F;
+}
+a {
+	color: #00BFFF;
+	font-size: 24px;
+}
+nav {
+	margin: auto;
+	height: 100px;
+	width: 30%;
+}
+.topnav {
+	font-size: 10px;
+	margin-top: 40px;
+}
+.number {
+	color: white;
+	margin: 5%;
+	margin-top: 3%;
+}
+.number1 {
+	color: white;
+	margin: 3%;
+	margin-top: 3%;
+	text-align: center;
+}
+.phonet{
+	padding-top: 2px;
+	padding-right:5px;
+}
+.button1 {
+	font-size: 20px;
+}
+.butfp {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.imagess {
+	padding-top: 2px;
+	padding-right:5px;
+}
+.ourt {
+	text-align: center;
+	color: white;
+	margin-top: 5%
+}
+.two {
+	text-align: center;
+}
+.namecomp {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 55%;
+}
+.text1 {
+	text-shadow: 0.3px 0.2px 0 black;
+}
+.ckk {
+	text-shadow: 0.3px 0.2px 0 black;
+	color: black;
+	border-radius: 15px;
+	background-color: gold;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 20px;
+}
+p {
+	text-indent: 10px;
+}
+.forma {
+	height: 400px;
+	width: 300px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	margin: auto;
+}
+#centered {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+/*.firstt {
+	text-align: center;
+	margin-top: 10%;
+	float: left;
+	display: inline-block;
+	width: 100%;
+	margin: 20px;
+}
+.two {
+	text-align: center;
+	margin-top: 10%;
+	float: left;
+	display:inline-block;
+	width: 100%;
+	margin: 20px;
+}*/
+ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+	margin: 30px;
+}
+.ourme {
+	opacity: 0.9;
+	color: black;
+	width: 70%;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: white;
+}
+.maint {
+	color: white;
+}
+.toptext {
+	color: white;
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+.price-b {
+	text-shadow: 0.3px 0.2px 0 black;
+ 	 color: black; /* цвет текста */
+ 	 text-decoration: none; /* убирать подчёркивание у ссылок */
+ 	 user-select: none; /* убирать выделение текста */
+ 	 padding: .7em 1.5em; /* отступ от текста */
+ 	 outline: none; /* убирать контур в Mozilla */
+ 	 border-radius: 10px;
+ 	 background-color: gold;
+}
+.price-b:hover { background: #FFB41E; } /* при наведении курсора мышки */
+.price-b:active { background: #FFD98C; } /* при нажатии */
+
+button {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+button:hover { background: #FFB41E; } /* при наведении курсора мышки */
+button:active { background: #FFD98C; } /* при нажатии */
+
+
+
+@media screen and (min-width:480px) and (max-width:800px) {
+	nav {
+	margin: auto;
+	height: 100px;
+	width: 100%;
+}
+	li > img {
+		height: 50%;
+	}
+}
+
+@media (max-width: 479px) {
+	nav {
+	margin: auto;
+	height: 100px;
+	width: 100%;
+}
+	li > img {
+		height: 50%;
+	}
+}
+
+

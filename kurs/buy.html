@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Орион</title>
+	 <link rel="icon" href="img/icon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="mainb">
+			<div class="toptext">
+				<h1>Оформить бесплатную заявку на оценку стоимости работы</h1>
+			</div>
+			<form class="forma" action="mail.php" method="POST">
+				<div class="forma" style="font-size: 40px;">
+					<div>
+						<select name="type">
+							<option value='1'>Бизнес-план</option><option value='2' >Дипломная работа</option><option value='3' >Диссертация</option><option value='4' >Задача</option><option value='5' >Контрольная работа</option><option value='6' selected='selected'>Курсовая работа</option><option value='7' >Лабораторная работа</option><option value='8' >Ответы на билеты</option><option value='9' >Отчет по практике</option><option value='10' >Перевод</option><option value='11' >Презентация PowerPoint</option><option value='12' >Реферат</option><option value='17' >Решение экзаменов онлайн</option><option value='13' >Сочинение</option><option value='18' >Статья</option><option value='14' >Тест</option><option value='15' >Чертеж</option><option value='16' >Эссе</option>
+						</select>
+					</div>
+					<div>
+						<div class="form-group clearfix" style="font-size: 40px;"> 
+							<input type="text" name="theme" placeholder="Тема"  value="" />
+						</div>
+						<div class="form-group clearfix" style="font-size: 40px;">
+							<input type="text" name="predmet" placeholder="Предмет"  value="" />
+						</div>
+					</div>
+					<div>
+						<div class="form-group clearfix" style="font-size: 40px;">
+							<input type="user_email" name="new_mail" placeholder="Электронная почта*"  value="" />
+						</div>
+						<div class="form-group clearfix" style="font-size: 40px;">
+							<input type="text" name="number" placeholder="Номер телефона*"  value="" />
+						</div>
+					</div>
+					<div class="buyit">
+						<input type="submit" class="price-b" value="Узнать стоимость">
+						<input type="hidden" name="formid"  value="price-form" />
+					</div>
+					<div>
+						<a href="index.html"><button class="ckk">На главную</button></a>
+					</div>
+				</div>
+			</form>
+			<div class="number1">
+				<h2>Орион 2000-2018</h2>
+				<h3><img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-512.png" height="25px" class="phonet" alt="phone">+79999999999</br></h3>
+				<h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mail-closed.svg/2000px-Mail-closed.svg.png" class="imagess" height="25px" alt="mailt">blacblac@list.com</h3>
+			</div>
+	</main>
+</body>
+</html>
